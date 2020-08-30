@@ -129,12 +129,6 @@ html {
     transform: translate(-50%,- 50%) scale(1);
 }
 
-
-.scrolling-active{
-    background-color: #FFFFFF;
-    box-shadow: 0 3px;
-}
-
 /* END OF HEADER*/
 
 /* MAIN SECTION */
