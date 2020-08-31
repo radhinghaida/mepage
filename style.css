@@ -244,10 +244,6 @@ html {
 #abouts{}
 
 #about {
-    background-size: cover;
-    background-position: top center;
-    position: relative;
-    z-index: 1;
     background: rgb(201,196,178);
     background: linear-gradient(90deg, rgba(201,196,178,1) 0%, rgba(181,181,198,0.15759807340905108) 46%, rgba(238,238,238,1) 89%);
 }
@@ -301,10 +297,7 @@ html {
 #contacts{}
 
 #contact {
-    background-size: cover;
-    background-position: top center;
     position: relative;
-    z-index: 1;
     background: rgb(224,224,224);
     background: linear-gradient(90deg, rgba(224,224,224,1) 5%, rgba(212,208,194,0.15759807340905108) 52%, rgba(164,180,184,1) 71%, rgba(145,165,172,1) 84%);
 } 
@@ -380,6 +373,37 @@ html {
     left: 30%;
 }
 /* END OF CONTACT ME SECTION */
+
+
+/* to Top Navigation */
+
+.to-top {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #457b9d;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+/* END OF to Top Navigation */
+
 
 /* SCREEN ADJUSTMENT */
 
