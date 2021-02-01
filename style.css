@@ -60,7 +60,7 @@ html {
     align-items: center;
     width: 100%;
     height: 100%;
-    max-width: 1300px;
+    max-width: 1700px;
 }
 
 #header .home span{
@@ -169,7 +169,7 @@ html {
 #main h3{
     display: block;
     width: fit-content;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 
@@ -311,6 +311,10 @@ html {
 
 #contact .title{
     text-align: center;
+}
+
+#contact .contact_up{
+    margin-right: 180px;
 }
 
 #contact .contact_up h2{
